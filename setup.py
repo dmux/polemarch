@@ -315,7 +315,7 @@ def make_setup(**opts):
 
 
 ext_list = [
-    "polemarch.api.v2.filters",
+    # "polemarch.api.v2.filters",
     "polemarch.api.v2.permissions",
     "polemarch.api.v2.serializers",
     "polemarch.api.v2.swagger",
