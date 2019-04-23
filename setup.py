@@ -313,9 +313,9 @@ def make_setup(**opts):
 ########################################################################################
 # end block
 
-
+'''
 ext_list = [
-    # "polemarch.api.v2.filters",
+    "polemarch.api.v2.filters",
     "polemarch.api.v2.permissions",
     "polemarch.api.v2.serializers",
     "polemarch.api.v2.swagger",
@@ -339,6 +339,7 @@ ext_list = [
     'polemarch.main.repo.vcs',
     'polemarch.main.validators',
 ]
+'''
 
 if 'develop' in sys.argv:
     ext_list = []
