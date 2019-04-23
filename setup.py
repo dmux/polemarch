@@ -313,6 +313,7 @@ def make_setup(**opts):
 ########################################################################################
 # end block
 
+ext_list = []
 '''
 ext_list = [
     "polemarch.api.v2.filters",
